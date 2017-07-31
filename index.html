@@ -1,26 +1,29 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>TH</title>
-		<link rel="stylesheet" type="text/css" href="main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm TH!</h1>
-				<p>Я томат и грейпфрут</p>
-    		</div>
-		</div>
-		<footer>
-    		<ul>
-        		<li><a href="mailto:tima.khom@gmail.com">email</a></li>
-        		<li><a href="https://github.com/khomtima">github.com/khomtima</a></li>
-			</ul>
-		</footer>
-	</body>
-</html>
+---
+layout: default
+image: /images/fulls/01.jpg
+---
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+  <section>
+    <h2><a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a></h2>
+    <p>
+      <span><i class="fa fa-calendar"></i> {{ post.date | date: "%d %B %Y" }}{% if post.categories %} on <i class="fa fa-tags"></i> {{ post.categories | join: ', ' }}{% endif %}</span>
+    </p>
+    <div>
+      {{ post.excerpt }}
+    </div>
+  </section>
+{% endfor %}
+
+{% if paginator.total_pages > 1 %}
+<!-- Pagination links -->
+<section>
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}">Previous</a>
+  {% endif %}
+  <span>Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}">Next</a>
+  {% endif %}
+</section>
+{% endif %}
