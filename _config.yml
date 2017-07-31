@@ -1,6 +1,6 @@
 title: Timofey Khomutnikov
 description: >
-  **I am Timofey Khomutnikov**\niOS software engineer @ Avito
+  **I am Timofey Khomutnikov**, iOS software engineer @ Avito
 copyright: "2017"
 sass:
   sass_dir: assets/sass
@@ -12,6 +12,3 @@ linkedin_username: "timofeyk"
 instagram_username: "timakhom/"
 github_username:  "khomTima"
 email: "tima.khom@gmail.com"
-gems: [jekyll-paginate]
-paginate_path: "/page/:num/"
-paginate: 5
