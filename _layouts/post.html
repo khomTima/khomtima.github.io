@@ -1,61 +1,49 @@
-<!DOCTYPE HTML>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-  <head>
-    {% include head.html %}
-    {% include opengraph.html %}
-    {% include twittercard.html %}
-  </head>
-	<body id="top">
+---
+layout: page
+---
 
-		{% include header.html %}
+{% if page.image and page.headerImage %}
+    <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
+{% endif %}
 
-		<!-- Main -->
-		<div id="main">
-      <article>
-        <header class="major">
-          <h2>{{ page.title }}</h2>
-          <p>
-            <i class="fa fa-calendar"></i> {{ page.date | date: "%d %B %Y" }}{% if page.categories %} on <i class="fa fa-tags"></i> {{ page.categories | array_to_sentence_string }}.{% endif %}
-            {% include readingtime.html %}
-          </p>
-        </header>
+<h1 class="title">{{ page.title }}</h1>
 
-        <section>
-          {{ content }}
-        </section>
-      </article>
+<span class="date">
+    <time datetime="{{ page.date | date:"%d-%m-%Y" }}">{{ page.date | date: "%A. %B %d, %Y" }}</time>
+    {% if site.read-time %} - {% include read-time.html %}{% endif %}
+</span>
 
-      {% include disqus.html %}
+{% if site.show-tags %}
+    <div class="post-tags">
+        {% for tag in page.tags %}
+            <a class="item" href="{{ site.url }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
+        {% endfor %}
+    </div>
+{% endif %}
 
-      {% if page.previous.url or page.next.url %}
-      <hr />
-      <div class="row">
-        <article class="6u 12u$(xsmall) work-item">
-          {% if page.previous.url %}
-          <p>Previous</p>
-  				<h3><a href="{{ page.previous.url }}">{{page.previous.title}}</a></h3>
-  				<p>{{ page.previous.excerpt | strip_html }}</p>
-          {% endif %}
-  			</article>
-  			<article class="6u$ 12u$(xsmall) work-item">
-          {% if page.next.url %}
-          <p>Next</p>
-  				<h3><a href="{{ page.next.url }}">{{page.next.title}}</a></h3>
-  				<p>{{ page.next.excerpt | strip_html }}</p>
-          {% endif %}
-  			</article>
-      </div>
-      {% endif %}
+{{content}}
 
-		</div>
+{% if site.post-advance-links contains page.category %}
+    <div class="blog-navigation">
+        {% if page.previous.url %}
+            <a class="prev" href="{{ site.url }}{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
+        {% else %}
+            <a class="prev"></a>
+        {% endif %}
+        {% if page.next.url %}
+            <a class="next" href="{{ site.url }}{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
+        {% endif %}
+    </div>
+{% endif %}
 
-    {% include footer.html %}
-    {% include scripts.html %}
+{% if site.related %}
+    {% include related.html %}
+{% endif %}
 
-	</body>
-</html>
+{% if site.show-author %}
+    {% include author.html %}
+{% endif %}
+
+{% if site.disqus.categories contains page.category %}
+    {% include disqus.html %}
+{% endif %}

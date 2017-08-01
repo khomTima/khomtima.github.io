@@ -1,101 +1,65 @@
-# Strata for Jekyll
+<p align="center">
+    <h2 align="center">Indigo Minimalist Jekyll Template - <a href="http://sergiokopplin.github.io/indigo/">Demo</a> · <a href="https://travis-ci.org/sergiokopplin/indigo"><img src="https://camo.githubusercontent.com/5393485b732749b3499264168fa8af60166071e8/68747470733a2f2f7472617669732d63692e6f72672f73657267696f6b6f70706c696e2f696e6469676f2e7376673f6272616e63683d67682d7061676573" alt="Build Status" data-canonical-src="https://travis-ci.org/sergiokopplin/indigo.svg?branch=gh-pages" style="max-width:100%;"></a></h2>
+</p>
 
-A simple, responsive blog theme for the [Jekyll](http://jekyllrb.com) static site generator using [HTML5 UP's Strata](http://html5up.net/strata) design.
+<p align="center">This is a simple and minimalist template for Jekyll for those who likes to eat noodles.</p>
 
-![preview](preview.jpg)
+***
 
-Browse the [demo](http://davidforster.com/strata-jekyll/).
+<p align="center">
+    <b><a href="README.md#what-has-inside">What has inside</a></b>
+    |
+    <b><a href="README.md#setup">Setup</a></b>
+    |
+    <b><a href="README.md#settings">Settings</a></b>
+    |
+    <b><a href="README.md#how-to">How to</a></b>
+</p>
 
-## How to use
+<p align="center">
+    <img src="https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png" />
+</p>
 
-### Quick start
+## What has inside
 
-If you just want to get a blog up & running at [GitHub Pages](https://pages.github.com) then simply fork this repository to your own GitHub account and name the new repository *\<yourgithubusername\>.github.io*. GitHub should then start hosting your site at *http://\<yourrgithubusername\>.github.io/*. If you'd like to use your own domain name you can follow GitHub's guide to using a [custom domain](https://help.github.com/articles/using-a-custom-domain-with-github-pages/).
+- [Jekyll](https://jekyllrb.com/), [Sass](http://sass-lang.com/) ~[RSCSS](http://rscss.io/)~ and [SVG](https://www.w3.org/Graphics/SVG/)
+- Tests with [Travis](https://travis-ci.org/)
+- Google Speed: [98/100](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F);
+- No JS. :sunglasses:
 
-Edit the `_config.yml` file and use the options available in the theme, as mentioned below in the features section, to customise your site.
+## Setup
 
-I recommend Development Seed's awesome [Prose](http://prose.io) editor to write your posts.
+0. :star: to the project. :metal:
+2. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
+3. Edit `_config.yml` with your data (check <a href="README.md#settings">settings</a> section)
+4. Write some posts :bowtie:
 
-### Local development
+If you want to test locally on your machine, do the following steps also:
 
-If you want to run and develop locally on your own computer then you'll need the Ruby programming language and Jekyll installed. The Jekyll website has a handy [installation guide](http://jekyllrb.com/docs/installation/) in their online documentation. Once installed, you can download or clone this repository and run `bundle exec jekyll serve` from the root.
+1. Install [Jekyll](http://jekyllrb.com), [NodeJS](https://nodejs.org/) and [Bundler](http://bundler.io/).
+2. Clone the forked repo on your machine
+3. Enter the cloned folder via terminal and run `bundle install`
+4. Then run `bundle exec jekyll serve --config _config.yml,_config-dev.yml`
+5. Open it in your browser: `http://localhost:4000`
+6. Test your app with `bundle exec htmlproofer ./_site`
 
-## Features
+## Settings
 
-### Disqus comments
+You must fill some informations on `_config.yml` to customize your site.
 
-[Disqus](https://disqus.com) comments appear beneath posts. Add your Disqus website's shortname to `_config.yml` as `disqus_shortname:`. Leave `disqus_shortname` blank to disable comments completely or add `disqus: disabled` to a post's front matter to disable comments just for that page.
+```
+name: John Doe
+bio: 'A Man who travels the world eating noodles'
+picture: 'assets/images/profile.jpg'
+...
 
-### Open Graph (Facebook) and Twitter Card meta tags
+and lot of other options, like width, projects, pages, read-time, tags, related posts, animations, multiple-authors, etc.
+```
 
-All pages have Open Graph metadata added.
+## How To?
 
-All pages have Twitter Card metadata, though this requires `twitter_username:` to be configured in `_config.yml`. Twitter Card titles are trunacted at 70 characters and descriptions at 200 characters as per Twitter requirements.
+Check the [FAQ](./FAQ.md) if you have any doubt or problem.
 
-Both Open Graph and Twitter Cards can show images if you specify `image: <image url>` in a page's front matter.
+---
 
-### RSS and Atom feeds
-
-The last 10 posts are available in RSS and Atom format at `rss.xml` and `atom.xml`. Both feeds are linked to from every page's metadata. The feed icon in the footer is configurable by setting `feed_icon:` in `_config.yml` to `rss` or `atom`, or the property can be left blank to remove it completely.
-
-### Feed footer
-
-A footer is added to every post in both the RSS and Atom feeds. This is configurable by editing `_includes/feed-footer.html`.
-
-### Sitemap
-
-Based on [David Ensinger's sitemap](http://davidensinger.com/2013/11/building-a-better-sitemap-xml-with-jekyll/), supported front matter is:
-
-- `sitemap.exclude: true` for pages, `post.published: false` for posts
-- `sitemap.lastmod` (defaults to the post or page date)
-- `sitemap.changefreq` (defaults to monthly)
-- `sitemap.priority` (defaults to 0.5)
-
-### Footer social media links
-
-Social media icon links in the footer are enabled by adding or removing values for the following sites in `_config.yml`.
-
-- Facebook - `facebook_username:`
-- Twitter - `twitter_username:`
-- LinkedIn - `linkedin_username:`
-- Instagram - `instagram_username:`
-- Pinterest - `pinterest_username:`
-- Flickr - `flickr_username:`
-- GitHub - `github_username:`
-
-You can change the icon order and add more options by editing `_includes/footer.html`. I recommended a maximum number of 5 icons in total (including the feed icon).
-
-### Reading time
-
-Reading time appears on post pages alongside the date and categories if the time is 1 minute or more, based on a reading rate of 180 words per minute (3 per second).
-
-### Pagination
-
-Pagination is set at 5 posts per page, this can be altered by changing the `paginate:` property in `_config.yml`
-
-### Next/Previous posts
-
-The Next and Previous posts are displayed underneath every post (and Disqus comments if enabled) along with their excerpt.
-
-### Custom 404
-
-If you host your site with [GitHub Pages](https://pages.github.com) then a custom 404 page has been added (see `404.md`)
-
-### robots.txt and humans.txt
-
-The theme includes a basic robots.txt file which allows all robots to crawl the entire site and directs them to the sitemap.xml file. There is also a humans.txt file giving credit to Myself ([David Forster](http://davidforster.com)) and AJ, the designer of Strata.
-
-## Acknowledgements
-
-- [AJ](https://twitter.com/n33co) and [HTML5UP](http://html5up.net) for the design of Strata
-- [David Ensinger](http://davidensinger.com) for a bunch of tips and ideas related to Jekyll
-
-## Contributions
-
-Issues, Pull Requests, Tweets and Forks are all greatly appreciated!
-
-## License
-
-The Jekyll theme is licensed under the [MIT](http://choosealicense.com/licenses/mit/) License
-
-The Strata design is licensed under the [Creative Commons Attribution 3.0 Unported](http://creativecommons.org/licenses/by/3.0/) license.
+[MIT](http://kopplin.mit-license.org/) License © Sérgio Kopplin
