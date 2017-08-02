@@ -4,7 +4,7 @@ layout: post
 startDate: 2013-08-01
 endDate: 2016-09-01
 tag: iOS
-image: http://thelocapeople.ru/wp-content/uploads/2014/06/Чемпионат-мира-2014-в-Бразилии.jpg
+image: http://www.vob.su/site/images/stories/sports_ru.gif
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
