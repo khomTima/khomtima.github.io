@@ -1,7 +1,8 @@
 ---
 title: "Avito.ru iOS Application"
 layout: post
-date: 2017-08-02 21:58
+startDate: 2017-02-01
+endDate:
 tag: iOS
 image: https://www.avito.ru/files/avito/company/logos/Logo-Avito.png
 headerImage: true
