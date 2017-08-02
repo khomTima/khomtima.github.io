@@ -1,7 +1,7 @@
 ---
 title: "Avito.ru iOS Application"
 layout: post
-date: 
+date:
 tag: iOS
 image: https://www.avito.ru/files/avito/company/logos/Logo-Avito.png
 headerImage: true
@@ -10,7 +10,7 @@ hidden: true # don't count this post in blog pagination
 description: "iOS application for Avito.ru site."
 category: project
 author: Timofey Khomutnikov
-externalLink: false
+externalLink: true
 ---
 iOS application for Avito.ru site.
 ---
