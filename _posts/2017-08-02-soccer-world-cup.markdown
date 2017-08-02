@@ -1,5 +1,5 @@
 ---
-title: "Soccer World Cup 2014 by Sports.ru iOS"
+title: "Soccer World Cup 2014 by Sports.ru"
 layout: post
 startDate: 2014-08-01
 endDate: 2014-09-01

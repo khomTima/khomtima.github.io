@@ -1,5 +1,5 @@
 ---
-title: "Sochi 2014 by Sports.ru iOS"
+title: "Sochi 2014 by Sports.ru"
 layout: post
 startDate: 2014-08-01
 endDate: 2014-10-01
