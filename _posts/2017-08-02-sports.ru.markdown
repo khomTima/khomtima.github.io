@@ -1,5 +1,5 @@
 ---
-title: "Sports.ru iOS Application"
+title: "Sports.ru iOS"
 layout: post
 startDate: 2013-08-01
 endDate: 2016-10-01

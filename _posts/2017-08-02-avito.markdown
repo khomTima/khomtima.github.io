@@ -1,5 +1,5 @@
 ---
-title: "Avito.ru iOS Application"
+title: "Avito.ru iOS"
 layout: post
 startDate: 2017-02-01
 endDate: "\ now"

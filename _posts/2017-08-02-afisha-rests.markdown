@@ -1,5 +1,5 @@
 ---
-title: "Afisha–restaurants"
+title: "Afisha–restaurants iOS"
 layout: post
 startDate: 2016-10-01
 endDate: 2017-02-01

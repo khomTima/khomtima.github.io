@@ -1,5 +1,5 @@
 ---
-title: "Gettable iOS Application"
+title: "Gettable iOS"
 layout: post
 startDate: 2015-10-01
 endDate: 2015-02-01
