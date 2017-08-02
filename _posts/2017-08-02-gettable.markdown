@@ -1,8 +1,8 @@
 ---
 title: "Gettable iOS Application"
 layout: post
-startDate: 2015
-endDate: 2015
+startDate: 2015-10-01
+endDate: 2015-02-01
 tag: iOS
 image: http://irecommend.ru/sites/default/files/product-images/12933/5fm7NVPDOKyJYZSTKu8dMA.png
 headerImage: true
