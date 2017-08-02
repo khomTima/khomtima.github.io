@@ -1,8 +1,8 @@
 ---
 title: "Soccer World Cup 2014 by Sports.ru iOS"
 layout: post
-startDate: 2015-08-01
-endDate: 2015-09-01
+startDate: 2014-08-01
+endDate: 2014-09-01
 tag: iOS
 image: http://thelocapeople.ru/wp-content/uploads/2014/06/Чемпионат-мира-2014-в-Бразилии.jpg
 headerImage: true
