@@ -2,7 +2,8 @@
 title: "Avito.ru iOS Application"
 layout: post
 image: https://www.avito.ru/files/avito/company/logos/Logo-Avito.png
-headerImage: true
+header
+Image: true
 projects: true
 hidden: true # don't count this post in blog pagination
 description: "iOS application for Avito.ru site."
