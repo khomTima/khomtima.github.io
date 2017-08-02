@@ -25,4 +25,5 @@ layout: page
 	<li><a href="https://itunes.apple.com/ru/app/gettable-lucsie-restorany/id806188192?l=en&mt=8&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B3yyKIiPuRqyJdzR0IF5zWA%3D%3D">Gettable</a></li>
 	<li><a href="https://itunes.apple.com/ru/app/brazilia+/id888415799?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B3yyKIiPuRqyJdzR0IF5zWA%3D%3DPaparazzo">Приложение для ЧМ по футболу 2014 от Sports.ru</a></li>
 	<li><a href="https://itunes.apple.com/ru/app/soci+-sports.ru/id722946198?mt=8&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B3yyKIiPuRqyJdzR0IF5zWA%3D%3DPaparazzo">Сочи+ для олимпиады 2014</a></li>
+	<li><a href="https://itunes.apple.com/ru/developer/sports-ru/id542339709">Универсальный шаблонный проект для приложений Sports.ru</a></li>
 </ul>
