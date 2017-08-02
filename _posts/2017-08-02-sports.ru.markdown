@@ -1,0 +1,18 @@
+---
+title: "Sports.ru iOS Application"
+layout: post
+date:
+tag: iOS
+image: http://www.vob.su/site/images/stories/sports_ru.gif
+headerImage: true
+projects: true
+hidden: true # don't count this post in blog pagination
+description: "iOS application for Sports.ru site."
+category: project
+author: Timofey Khomutnikov
+externalLink: true
+---
+iOS application for sports.ru, ua.tribuna.com and by.tribuna.com.
+---
+
+[Check it out](https://itunes.apple.com/ru/app/sports.ru-futbol-hokkej-olimpijskie/id542339626?mt=8&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B3yyKIiPuRqyJdzR0IF5zWA%3D%3D) here.

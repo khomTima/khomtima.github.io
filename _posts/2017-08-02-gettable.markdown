@@ -1,0 +1,18 @@
+---
+title: "Gettable iOS Application"
+layout: post
+date:
+tag: iOS
+image: http://irecommend.ru/sites/default/files/product-images/12933/5fm7NVPDOKyJYZSTKu8dMA.png
+headerImage: true
+projects: true
+hidden: true # don't count this post in blog pagination
+description: "iOS application for gettable.ru site."
+category: project
+author: Timofey Khomutnikov
+externalLink: true
+---
+iOS application for gettable.ru.
+---
+
+[Check it out](https://itunes.apple.com/ru/app/gettable-lucsie-restorany/id806188192?l=en&mt=8&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B3yyKIiPuRqyJdzR0IF5zWA%3D%3D) here.
