@@ -1,7 +1,8 @@
 ---
 title: "Afisha–restaurants"
 layout: post
-date: 2017-08-02 21:58 - 2017-10-11 21:58
+startDate: 2016-10-01
+endDate: 2017-02-01
 tag: iOS
 image: https://lh3.ggpht.com/hclyfxgyDuR8aoUG7mZbEx3Z_iAWqvGqaZG8qAU6taAidW0PM1F0o2bwQIdd12rrRg=w300
 headerImage: true
