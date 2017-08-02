@@ -10,7 +10,7 @@ hidden: true # don't count this post in blog pagination
 description: "iOS application for afisha restaurants project."
 category: project
 author: Timofey Khomutnikov
-externalLink: https://itunes.apple.com/ru/app/afisa-restorany/id916815434?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B3yyKIiPuRqyJdzR0IF5zWA%3D%3DP
+externalLink: false
 ---
 iOS application for afisha restaurants project.
 ---
