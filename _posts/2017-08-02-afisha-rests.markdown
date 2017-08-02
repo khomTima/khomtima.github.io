@@ -15,4 +15,4 @@ externalLink: false
 iOS application for afisha restaurants project.
 ---
 
-[Check it out](https://itunes.apple.com/ru/app/afisa-restorany/id916815434?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B3yyKIiPuRqyJdzR0IF5zWA%3D%3DP) here.
+[Check it out](https://itunes.apple.com/ru/app/afisa-restorany/id916815434?) here.
