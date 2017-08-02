@@ -1,8 +1,6 @@
 ---
 title: "Avito.ru iOS Application"
 layout: post
-date:
-tag: iOS
 image: https://www.avito.ru/files/avito/company/logos/Logo-Avito.png
 headerImage: true
 projects: true
