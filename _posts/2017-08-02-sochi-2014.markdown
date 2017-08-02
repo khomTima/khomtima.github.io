@@ -1,0 +1,19 @@
+---
+title: "Sochi 2014 by Sports.ru iOS"
+layout: post
+startDate: 2014-08-01
+endDate: 2014-10-01
+tag: iOS
+image: http://www.iphones.ru/wp-content/uploads/2014/02/sports-ru-icon.jpg
+headerImage: true
+projects: true
+hidden: true # don't count this post in blog pagination
+description: "iOS application for Sochi 2014 by Sports.ru."
+category: project
+author: Timofey Khomutnikov
+externalLink: false
+---
+iOS application for Sochi 2014 by Sports.ru.
+---
+
+[Check it out](https://itunes.apple.com/ru/app/soci+-sports.ru/id722946198?mt=8) here.
