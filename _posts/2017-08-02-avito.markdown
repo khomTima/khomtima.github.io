@@ -1,0 +1,16 @@
+---
+title: ":ramen: Avito"
+layout: post
+date: 2016-01-23 22:10
+tag: jekyll
+image: https://www.avito.ru/files/avito/company/logos/Logo-Avito.png
+headerImage: true
+projects: true
+hidden: true # don't count this post in blog pagination
+description: "iOS application for Avito.ru site."
+category: project
+author: Timofey Khomutnikov
+externalLink: false
+---
+
+[Check it out](https://itunes.apple.com/ru/app/%D0%BE%D0%B1%D1%8A%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-avito-%D0%B0%D0%B2%D1%82%D0%BE-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D0%BD%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C/id417281773?mt=8) here.
