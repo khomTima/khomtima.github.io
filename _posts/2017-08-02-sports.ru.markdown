@@ -1,7 +1,7 @@
 ---
 title: "Sports.ru iOS Application"
 layout: post
-date:
+date: 2017-08-02 21:58
 tag: iOS
 image: http://www.vob.su/site/images/stories/sports_ru.gif
 headerImage: true
