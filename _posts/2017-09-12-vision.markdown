@@ -9,10 +9,10 @@ hidden: false # don't count this post in blog pagination
 description: "Анонимизация фото с помощью Vision"
 category: blog
 author: Timofey Khomutnikov
-externalLink: false
+externalLink: true
 ---
 Доклад с Avito special iOS event.
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/To53BYMI6xA?start=2360" frameborder="0" allowfullscreen></iframe>
 
 [Слайды](https://www.slideshare.net/AvitoTech/vision-avito)
-[Видео](https://youtu.be/To53BYMI6xA?t=39m18s)
