@@ -7,7 +7,7 @@ headerImage: false
 projects: false
 hidden: false # don't count this post in blog pagination
 description: "Анонимизация фото с помощью Vision"
-category: posts
+category: blog
 author: Timofey Khomutnikov
 externalLink: true
 ---
