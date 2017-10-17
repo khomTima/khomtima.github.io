@@ -13,7 +13,5 @@ category: project
 author: Timofey Khomutnikov
 externalLink: false
 ---
-iOS application for afisha restaurants project.
+[iOS application](https://itunes.apple.com/ru/app/afisa-restorany/id916815434?) for afisha restaurants project.
 ---
-
-[Check it out](https://itunes.apple.com/ru/app/afisa-restorany/id916815434?) here.

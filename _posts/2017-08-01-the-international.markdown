@@ -13,7 +13,5 @@ category: project
 author: Timofey Khomutnikov
 externalLink: false
 ---
-iOS application for The International championship by Sports.ru
+[iOS application](https://itunes.apple.com/ru/app/well-played-dota-2-edition/id1021254706?) for The International championship by Sports.ru
 ---
-
-[Check it out](https://itunes.apple.com/ru/app/well-played-dota-2-edition/id1021254706?) here.

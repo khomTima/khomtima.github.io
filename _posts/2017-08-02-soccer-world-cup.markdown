@@ -13,7 +13,5 @@ category: project
 author: Timofey Khomutnikov
 externalLink: false
 ---
-iOS application for Soccer World Cup 2014 by Sports.ru.
+[iOS application](https://itunes.apple.com/ru/app/well-played-dota-2-edition/id1021254706?) for Soccer World Cup 2014 by Sports.ru.
 ---
-
-[Check it out](https://itunes.apple.com/ru/app/brazilia+/id888415799?) here.

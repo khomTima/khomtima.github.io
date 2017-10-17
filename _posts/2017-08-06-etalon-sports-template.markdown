@@ -13,7 +13,5 @@ category: project
 author: Timofey Khomutnikov
 externalLink: false
 ---
-Universal template app for Sports.ru iOS projects
+[Universal template app](https://itunes.apple.com/ru/developer/sports-ru/id542339709) for Sports.ru iOS projects
 ---
-
-[Check it out](https://itunes.apple.com/ru/developer/sports-ru/id542339709) here.

@@ -13,7 +13,5 @@ category: project
 author: Timofey Khomutnikov
 externalLink: false
 ---
-iOS application for sports.ru, ua.tribuna.com and by.tribuna.com.
+[iOS application](https://itunes.apple.com/ru/app/sports.ru-futbol-hokkej-olimpijskie/id542339626?mt=8) for sports.ru, ua.tribuna.com and by.tribuna.com.
 ---
-
-[Check it out](https://itunes.apple.com/ru/app/sports.ru-futbol-hokkej-olimpijskie/id542339626?mt=8) here.
