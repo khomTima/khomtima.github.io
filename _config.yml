@@ -15,7 +15,7 @@ picture: assets/images/profile.jpg
 # and specify source (external or local).
 resume: false
 resume-external: false
-resume-url: https://google.com/?q=my+resume
+resume-url: http://khomutnikov.com/projects/
 
 url: http://khomutnikov.com
 
@@ -44,7 +44,7 @@ email: tima.khom@gmail.com
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: normal
+width: large
 
 # if you don't need pagination, comment the *paginate* configs below
 # paginate: 5
@@ -64,13 +64,13 @@ read-time: false
 show-tags: false
 
 # related posts inside a post?
-related: false
+related: true
 
 # Display links for next and previous posts for the specified categories
 post-advance-links: [blog]
 
 # show author block at the end of a post ?
-show-author: false
+show-author: true
 
 # do you want some animations?
 animation: true
