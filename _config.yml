@@ -2,7 +2,7 @@
 name: Timofey Khomutnikov
 bio: iOS software engineer @ Avito
 title: "khomutnikov.com"
-
+author: Timofey Khomutnikov
 # twitter summary info
 description: A blog about technology and stuff related
 
@@ -83,3 +83,6 @@ gems:
 
 jekyll-mentions:
     base_url: khomutnikov.com
+
+plugins:
+  - jekyll-seo-tag
