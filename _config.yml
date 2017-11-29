@@ -92,4 +92,3 @@ jekyll-mentions:
 
 plugins:
   - jekyll-seo-tag
-  - jekyll-sitemap
