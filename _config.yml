@@ -1,10 +1,9 @@
 # main text of home
 name: Timofey Khomutnikov
 bio: Senior iOS software engineer @ Avito
-title: "khomutnikov.com"
+title: "Khomutnikov Timofey"
 author: Timofey Khomutnikov
-# twitter summary info
-description: A blog about technology and stuff related
+description: Timofey Khomutnikov's blog about ios and other stuff
 
 # if it's an external image, update below for true
 # better with square images
@@ -17,7 +16,7 @@ resume: false
 resume-external: false
 resume-url: http://khomutnikov.com/projects/
 
-url: http://khomutnikov.com
+url: khomutnikov.com
 
 permalink: /:title/
 
@@ -33,13 +32,20 @@ disqus:
   shortname:  # enter this from your disqus account
   categories:  # only show disqus for posts that have these categories
 
-# if you don't have any of social below, comment the line
 facebook: tima.khomutnikov
 twitter: KhomTima
 instagram: timakhom
 linkedin: timofeyk
 github: khomTima
 email: tima.khom@gmail.com
+
+social:
+  name: Khomutnikov Timofey
+  links:
+    - https://twitter.com/KhomTima
+    - https://www.facebook.com/tima.khomutnikov
+    - https://www.linkedin.com/in/timofeyk
+    - https://github.com/khomTima
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -86,3 +92,4 @@ jekyll-mentions:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
